@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Legislative Coordination and Institutional Change: A Bipartite Network Analysis of Coalition Dynamics in the Brazilian Chamber of Deputies"
+authors:
+  - family-names: "de Oliveira Soares"
+    given-names: "Andéliton"
+    affiliation: "University of Brasília (UnB)"
+year: 2026
+conference:
+  name: "19th Political Networks Conference (POLNET 2026)"
+  location: "University of Manchester"
+version: "POLNET 2026 conference version"

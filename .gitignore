@@ -1,0 +1,32 @@
+# =========================================================================
+# Public POLNET 2026 release: slides (clean deck) + figures only.
+# =========================================================================
+
+# The working paper (text + appendices + reproducibility note) is distributed
+# via the event organizer, not here. Kept out of the public repository.
+paper/
+
+# The analysis code and data are released as a full replication package with
+# the journal version of the paper, after cleanup. Kept out for now.
+scripts/
+data/
+
+# Slide files that contain the author's speaker notes stay private.
+# Public deck is slides/talk_slides.pdf only.
+slides/talk_slides_with_notes.pptx
+slides/presenter_handout.pdf
+
+# R session junk
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor / assistant files (never version these)
+CLAUDE.md
+PROMPT_INICIAL.md
+.claude/
+.obsidian/
