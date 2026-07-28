@@ -2,9 +2,11 @@
 # Public POLNET 2026 release: slides (clean deck) + figures only.
 # =========================================================================
 
-# The working paper (text + appendices + reproducibility note) is distributed
-# via the event organizer, not here. Kept out of the public repository.
-paper/
+# Working paper: the raw SOURCE (paper.md, appendices, journal version,
+# reproducibility note) stays out; the shared reading copy and compiled PDF are public.
+paper/*
+!paper/paper_leitura.md
+!paper/Legislative Coordination and Institutional Change (working paper).pdf
 
 # The analysis code and data are released as a full replication package with
 # the journal version of the paper, after cleanup. Kept out for now.
