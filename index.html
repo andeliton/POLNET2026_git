@@ -19,6 +19,15 @@
   .btn{ display:inline-block; background:var(--navy); color:#fff; text-decoration:none;
         padding:11px 18px; border-radius:8px; font-weight:600; font-size:.98rem; margin:0 8px 8px 0; }
   .btn.alt{ background:#fff; color:var(--navy); border:1.5px solid var(--navy); }
+  .dd{ display:inline-block; position:relative; margin:0 8px 8px 0; }
+  .dd>summary{ list-style:none; cursor:pointer; margin:0; }
+  .dd>summary::-webkit-details-marker{ display:none; }
+  .dd-menu{ position:absolute; left:0; top:calc(100% + 6px); z-index:5; background:#fff;
+            border:1.5px solid var(--navy); border-radius:8px; overflow:hidden; min-width:190px;
+            box-shadow:0 10px 28px rgba(16,42,76,.18); }
+  .dd-menu a{ display:block; padding:11px 16px; color:var(--navy); text-decoration:none; font-weight:600; font-size:.95rem; }
+  .dd-menu a+a{ border-top:1px solid var(--line); }
+  .dd-menu a:hover{ background:#eef3fb; }
   h2{ font-size:1.05rem; color:var(--navy); margin:26px 0 8px; }
   .abstract{ font-size:.98rem; text-align:justify; }
   .frame{ width:100%; height:560px; border:1px solid var(--line); border-radius:10px;
@@ -39,21 +48,22 @@
 
   <div class="btns">
     <a class="btn" href="paper/Legislative%20Coordination%20and%20Institutional%20Change%20(working%20paper).pdf">📄 Read the paper (PDF)</a>
-    <a class="btn alt" href="slides/talk_obsidianite_light.pdf">▶ Slides (PDF)</a>
-    <a class="btn alt" href="paper/paper_leitura.md">Paper (Markdown)</a>
+    <a class="btn alt" href="paper/paper_leitura.md">📖 Read the paper (Markdown)</a>
+    <details class="dd">
+      <summary class="btn alt">▶ Slides ▾</summary>
+      <div class="dd-menu">
+        <a href="slides/talk_obsidianite_light.pdf">☀️ Slides — light</a>
+        <a href="slides/talk_obsidianite_dark.pdf">🌙 Slides — dark</a>
+      </div>
+    </details>
   </div>
 
   <h2>Abstract</h2>
   <p class="abstract">How does a polarized multiparty legislature remain governable without party-system collapse or programmatic realignment? Standard typologies of party-system change do not address this combination, and the Brazilian Chamber of Deputies after 2014 is a clear instance of it. Using two decades of roll-call voting (2003–2026), this paper reconstructs legislative coordination as bipartite networks of agreement and shows that the chamber organizes by position relative to the executive of the day, not along a fixed ideological axis. Its pragmatic center, the Centrão, is a long-standing governista bloc whose position shifted during the 2014–2016 crisis: once a disciplined agent of the presidency, it became an autonomous pivot that sits in the largest coordinating community under every government and, net of the president’s party, supplies the marginal majority on contested votes. Because the institutional shocks are collinear, the design eliminates the main observable rivals (turnover, agenda control, a fiscal channel) instead of estimating a single causal effect. The case identifies a mode of party-system change the standard categories miss: structural reorganization of legislative coordination without collapse.</p>
 
-  <h2>Slides — which theme do you prefer?</h2>
-  <p class="note" style="font-size:.96rem;color:var(--ink)">I'm choosing the deck design. Open both and tell me which one you like better:</p>
-  <div class="btns">
-    <a class="btn" href="slides/talk_obsidianite_dark.pdf">🌙 Dark theme (PDF)</a>
-    <a class="btn alt" href="slides/talk_obsidianite_light.pdf">☀️ Light theme (PDF)</a>
-  </div>
-  <iframe class="frame" src="slides/talk_obsidianite_light.pdf" title="Presentation slides (light theme)"></iframe>
-  <p class="note">Preview shows the light theme; use the buttons above to compare both. If the viewer does not load on your device, the buttons download the PDFs.</p>
+  <h2>Slides</h2>
+  <iframe class="frame" src="slides/talk_obsidianite_light.pdf" title="Presentation slides"></iframe>
+  <p class="note">Use the “Slides” button above to open the deck (light or dark theme). If the viewer does not load on your device, the button links download the PDFs.</p>
 
   <footer>
     <img src="figures/qr_polnet.png" alt="QR code to this page" width="108" style="float:right;margin:0 0 8px 16px">
