@@ -4,7 +4,7 @@
 
 **Author:** Andéliton Soares (PhD Candidate, University of Brasília, UnB)
 **Presented at:** 19th Political Networks Conference (POLNET 2026), University of Manchester, August 2026
-**Status:** working paper (conference version). Last updated: 2 August 2026.
+**Status:** working paper, conference version (28 July 2026).
 
 ---
 
