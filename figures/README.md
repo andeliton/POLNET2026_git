@@ -4,8 +4,9 @@ Every figure in the paper and appendices, named in reading order. Each entry lis
 shows and the script that produces it. Filenames are prefixed so they sort in the order the paper
 uses them.
 
-> The scripts named below belong to the analysis pipeline, which will be released as a replication
-> package with the journal version of the paper. They are not part of this public repository yet.
+> The scripts named below identify the step of the R analysis pipeline that produces each figure.
+> The code itself is not part of this public repository yet; it will be released as a full
+> replication package, with an environment-locked pipeline, together with the journal version.
 
 ## Body figures (in the paper)
 

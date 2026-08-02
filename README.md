@@ -4,6 +4,7 @@
 
 **Author:** Andéliton Soares (PhD Candidate, University of Brasília, UnB)
 **Presented at:** 19th Political Networks Conference (POLNET 2026), University of Manchester, August 2026
+**Status:** working paper (conference version). Last updated: 2 August 2026.
 
 ---
 
@@ -11,14 +12,15 @@
 
 This is the public companion to the POLNET 2026 talk. It contains:
 
-- **the slides** as presented (`slides/talk_slides.pdf`), and
-- **the figures** from the paper (`figures/`, with an index in `figures/README.md`).
+- **the working paper** — a reading version (`paper/paper_leitura.md` and
+  `paper/paper_leitura.html`) and the compiled PDF
+  (`paper/Legislative Coordination and Institutional Change (working paper).pdf`);
+- **the figures** — every figure in reading order (`figures/`, indexed in `figures/README.md`);
+- **the slides** as presented, in light and dark themes (`slides/talk_obsidianite_light.pdf`,
+  `slides/talk_obsidianite_dark.pdf`).
 
-**The working paper** (text and appendices) is available from the author, distributed via the event
-organizer. It is not included here while it is under review.
-
-**The analysis code and data** will be released as a full replication package together with the
-journal version of the paper.
+The analysis code and data are not included here yet. They will be released as a full replication
+package, with an environment-locked pipeline, together with the journal version of the paper.
 
 ## The paper in one paragraph
 
@@ -40,9 +42,12 @@ POLNET2026_git/
 ├── README.md
 ├── LICENSE                 <- CC BY 4.0 (slides and figures)
 ├── CITATION.cff
-├── slides/
-│   └── talk_slides.pdf     <- the presentation deck
-└── figures/                <- every figure, in reading order, with an index
+├── paper/
+│   ├── Legislative Coordination and Institutional Change (working paper).pdf
+│   ├── paper_leitura.md    <- reading version (POLNET short paper)
+│   └── paper_leitura.html
+├── figures/                <- every figure, in reading order, with an index
+└── slides/                 <- the presentation deck, light and dark themes
 ```
 
 ## Figures
@@ -54,13 +59,17 @@ one shows and which analysis step produced it.
 ## Citing this work
 
 > Soares, A. de O. (2026). *Legislative Coordination and Institutional Change: A Bipartite Network
-> Analysis of Coalition Dynamics in the Brazilian Chamber of Deputies.* Paper presented at the 19th
-> Political Networks Conference (POLNET 2026), University of Manchester.
+> Analysis of Coalition Dynamics in the Brazilian Chamber of Deputies.* Working paper presented at
+> the 19th Political Networks Conference (POLNET 2026), University of Manchester.
 
 ## License
 
-Slides and figures: Creative Commons Attribution 4.0 International (CC BY 4.0). See `LICENSE`.
+The slides and figures are released under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0); see `LICENSE`. The **working-paper text** (everything under `paper/`) is © 2026
+Andéliton de Oliveira Soares, all rights reserved pending journal publication: it may be read and
+cited, but not otherwise reused without permission. The analysis code and data will be released,
+under an open license, with the journal version.
 
 ## Contact
 
-Andéliton Soares, University of Brasília (UnB). The working paper is available on request.
+Andéliton Soares, University of Brasília (UnB) — andelitons@gmail.com. Comments and questions welcome.

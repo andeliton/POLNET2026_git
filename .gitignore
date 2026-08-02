@@ -6,6 +6,7 @@
 # reproducibility note) stays out; the shared reading copy and compiled PDF are public.
 paper/*
 !paper/paper_leitura.md
+!paper/paper_leitura.html
 !paper/Legislative Coordination and Institutional Change (working paper).pdf
 
 # The analysis code and data are released as a full replication package with
@@ -14,7 +15,7 @@ scripts/
 data/
 
 # Slide files that contain the author's speaker notes stay private.
-# Public deck is slides/talk_slides.pdf only.
+# Public decks are slides/talk_obsidianite_light.pdf and _dark.pdf only.
 slides/talk_slides_with_notes.pptx
 slides/presenter_handout.pdf
 
