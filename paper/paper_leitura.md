@@ -1,6 +1,6 @@
 # Legislative Coordination and Institutional Change: A Bipartite Network Analysis of Coalition Dynamics in the Brazilian Chamber of Deputies
 
-> POLNET 2026 conference version. Short paper presented at the 19th Political Networks Conference, University of Manchester, August 2026. Figures are available in the public companion repository. Analysis code, appendices, and reproducibility materials will accompany a later release.
+> POLNET 2026 conference version. Short paper presented at the 19th Political Networks Conference, University of Manchester, August 2026. Figures and supplementary appendices are included in this public companion. Analysis code and complete reproducibility materials will accompany a later release.
 
 ## Abstract
 
